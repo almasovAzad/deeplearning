@@ -140,3 +140,20 @@ for bb in range(k):
     del total_data
     del train_data1
 """End of k-fold validation"""
+
+
+"""Take average of training and validation accuracy by fold per each epoch"""
+average_val_acc = [np.mean([x[i] for x in all_val_acc]) for i in range(num_epochs)]
+average_train_acc = [np.mean([x[i] for x in all_train_acc]) for i in range(num_epochs)]
+
+"""Plotting average val_acc and train_acc"""
+import matplotlib.pyplot as plt
+epochs = range(1, len(average_val_acc) + 1)
+plt.plot(epochs, average_train_acc, 'bo', label='Training acc')
+plt.plot(epochs, average_val_acc, 'b', label='Validation acc')
+plt.title('k-foldTraining and validation accuracy')
+plt.legend()
+plt.figure()
+plt.show()
+
+
