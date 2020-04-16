@@ -1,5 +1,5 @@
 ##
-## In this project different type of DNN (deep neural network) methods have been used to predict precipitation ammount:
+## In this project different type of DNN (deep neural network) methods have been used to predict the weather:
 ## 1. First naive base case is created using mean absolute error.
 ## 2. Dense connected model is used
 ## 3. Gated reccurent unit (GRU)
