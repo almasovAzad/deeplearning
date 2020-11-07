@@ -23,3 +23,6 @@ I also visualized the activations of each layer of the model due to any two clas
 1. Best model was Transfer learning with 4-fold validation (modelPT-WHOLE-512), giving 88 percent
 accuracy. In this transfer learning VGG16 is used as convolutional base network.
 2. Colormap of the activation functions of each node of each layer of the model showed that most important feature of the leaf to be distibguished from other leaved is its shape of the edge, especially front edge of the leaf.
+
+### Note:
+Since modelPT-WHOLE-512 is large file, I could not download trained model here, but one can go to the python file "leaf-classification_all_code_for_chosen_dense_model.py" and finde the code section for that model only and train it.
