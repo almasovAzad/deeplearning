@@ -11,7 +11,7 @@ In this project, I used different architecture of DNN (deep neural network) meth
 6. LSTM with reversed sequence.
 7. Convolutional neural network (CNN) with 1D dimension.
 8. Combining CNN and GRU with long sequences.
-9. Directed acyclic graph (DAG) network. The architecture of DAG is shown in the power point presentation file in this folder.
+9. Directed acyclic graph (DAG) network. The architecture of DAG is shown in the power point presentation file (Diagram_used_for_DAG_Model.pptx) in this folder.
 Accuracies of each model is compared with each other and specially with base case to compare the performance of the models.
 
 ### Programs:
