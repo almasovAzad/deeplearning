@@ -6,15 +6,15 @@ Data preperation was very important part of this problem. WAV files we have are 
 After preparetion of the data and splitting it into training, validation and test data sets using uniform sampling, I used different architecture of DNN algorithms. Then compared their accuracies.
 Using well-trained model, I wrote code which takes output as its input and keeps generating data. By this way, I generated artificical voice of cats and dogs.
 
-# Programs:
+### Programs:
 - Python (keras, numpy, pandas, scipy, matplotlib, random)
 - Excel
 - LaTex
 
-# Conclusions:
+### Conclusions:
 1. Data preperation is very important and is problem specific.
 2. Choosing appropriate optimization method in DNN algorithms is very important depending on problem, especially where your loss value directly stabilize very fast and you see overfitting at very early time.
 3. In regression, depending on your output range, choosing appropriate scaling and normalizing can affect your results dramatically.
 
-# Recommendation:
+### Recommendation:
 For voice generation I would also suggest to use variational autoencoders.
