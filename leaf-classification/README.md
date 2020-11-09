@@ -15,7 +15,7 @@ Then I compared computational time and accuracy of these models to choose the op
 I also visualized the activations of each layer of the model due to any two classes of my choice.
 
 ### Programs:
-- Python, keras library, tensor flow and libraries for data visualisation.
+- Python (keras library, tensor flow and libraries for data preparation and visualization).
 - Excel
 - LaTex
 
