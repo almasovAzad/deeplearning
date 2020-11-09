@@ -23,5 +23,6 @@ Accuracies of each model is compared with each other and specially with base cas
 Results are reported using Jupyter notebook. For each prediction problem (predicting 1 day; predicting; 7 days; predicting 14 days; predicting 30 days) I wrote seperate reports. And each report is saved under the folder with the corresponding name. In each folder, the best model for that corresponding problem were given as well.
 
 ### Conclusions:
-Results show that for different prediction problems we need different kind of architecture of DNN models.
+1. For different prediction problems (predicting 1 day; predicting; 7 days; predicting 14 days; predicting 30 days) we need different kind of architecture of DNN models.
+2. Between 90% and 98% of accuracy was achieved depending on prediction problems.
 
