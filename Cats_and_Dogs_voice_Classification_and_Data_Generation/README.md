@@ -1,5 +1,5 @@
 ### Statement of the Problem:
-We have .WAV files for the voice of dogs and cats. Our main objective in this project is to classify the voices of dogs and cats accurately.
+We have .WAV files for the voice of dogs and cats. The "train_test_split.exe" file shows the training and test data splitted. Our main objective in this project is to classify the voices of dogs and cats accurately.
 
 ### Solution:
 Data preperation was very important part of this problem. WAV files we have are in int16 format. Therefore, we need to remember when we generate data we need to convert its type into int16. Our rate is 16000 data point for 1 sec. I converted voice into numerical data using "scipy.io.wavfile" function where you can read and write WAV files. First of all I need to pad them into the same length. After downloading them I have defined max-len=100000 for my data length. These WAV files are not pure cat and dog voices, they are contaminated with the background noise such as door opening. Therefore, I have defined portion to cut my data into that portion from different sections of the WAV file evenly skipping some points so that I have good generalization about voice; then, combined those small sections in order to get max-len data.
